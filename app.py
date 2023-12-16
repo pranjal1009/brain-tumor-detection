@@ -23,7 +23,7 @@ st.divider()
 if img_main is not None:
     st.subheader('File is getting analyzed')
     with st.spinner('Wait for it...'):
-        time.sleep(5)
+        time.sleep(10000)
     st.error('Internal Server Error', icon="🚨")
 else:
     st.subheader(':heavy_exclamation_mark: Please upload the image')
